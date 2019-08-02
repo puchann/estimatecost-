@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should match snapshot 1`] = `
+.c1 {
+  background-color: #000;
+  color: #fff;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 9999px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+}
+
+.c0 {
+  padding-bottom: 50px;
+  background-color: #ededed;
+}
+
+<div
+  class="flex items-center justify-center h-screen c0"
+>
+  <button
+    class="c1"
+  >
+    Click me please
+  </button>
+</div>
+`;
